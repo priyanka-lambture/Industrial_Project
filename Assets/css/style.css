@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color:#022D82;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 600;
+    color: #fff;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img2.jpeg);
+    background-size: cover;
+    padding: 0px 100px;
+    align-items: center;
+    
+}
+.banner h1{
+font-size: 55px;
+font-weight: normal;
+margin-top: 60px;
+}
+.banner h1 span{
+    font-size: 70px;
+    display: block;
+}
+main{
+    width: 100%;
+    height: 450px;
+    
+}
+aside{
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    background-color:#012D7D ;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    height: 50px;
+    margin: 2px;
+    
+}
+aside table tr td{
+    padding-left: 3px;
+    padding-right:3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
