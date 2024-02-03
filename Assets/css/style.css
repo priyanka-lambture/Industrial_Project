@@ -44,6 +44,7 @@ aside{
     text-align: center;
     border-radius: 7px;
     background-color:#012D7D ;
+    
 }
 .banner aside input[type],
 .banner aside textarea,
@@ -59,3 +60,106 @@ aside table tr td{
     padding-top: 3px;
     padding-bottom: 3px;
 }
+/* /Banner Section Ended  */
+
+/* Our Feature Section Started */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    color: #012D7D;
+}
+.feature div h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.feature div{
+    padding-top: 30px;
+    width: 30%;
+    height: 400px;
+}
+.feature div img{
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    padding:10px
+}
+.feature div p{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+} 
+.aboutus{
+    width: 100%;
+    height: auto;
+    background-color: #012D7D;
+    color: #fff;
+    padding: 60px 300px;
+    justify-content: center;
+}
+ .aboutus h2{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 7px;
+
+}
+.aboutus p{
+    font-size: 18px;
+    color: #fff;
+    font-size: normal;
+}
+.aboutus button{
+    font-weight: bold;
+    padding: 15px 100px;
+    border:2px solid #fff ;
+    margin-top: 5px;
+    margin-left: 235px;
+    border-radius: 4px;
+} 
+/* About us section Ended */
+
+/* Service Section Start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+
+/* Service Section End */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper , .service .lower{
+display: flex;
+align-items: center;
+
+}
+.service .img,
+.service .content{
+width: 50%;
+}
+.service .lower img, .upper img{
+    width: 600px;
+    height: 550px;
+}
+.service .upper .content, .lower .content{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 50px;
+    text-justify: auto;
+
+}
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #012D7D;
+    text-align: center;
+    padding: 20px;
+    
+}
+/* Footer Section End */
